@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="temp.css">
+	<img src="E:\html5\intern code\oasis infobyte project\temp converter project/temp01.jpg">
+<body>
+
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+  oninput="temperatureConverter(this.value)"
+  onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputCelsius"></span></p>
+
+
+<script src="temp.js"></script>
+
+</body>
+</html>
